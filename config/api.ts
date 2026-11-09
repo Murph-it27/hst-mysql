@@ -2,7 +2,7 @@ import { Platform } from 'react-native';
 
 // Address of the hosted backend (e.g. your Render address). When this is filled in,
 // the app (website or phone) always uses it and nothing needs to run on your computer.
-const HOSTED_URL: string = ''; // e.g. 'https://hst-backend.onrender.com'
+const HOSTED_URL: string = 'https://hst-mysql.onrender.com'; // e.g. 'https://hst-backend.onrender.com'
 
 // Only used while developing on your own PC (backend running locally):
 // - Android emulator : http://10.0.2.2:4000

@@ -34,7 +34,7 @@ const LoginScreen: React.FC = () => {
       <Text style={[styles.title, { color: theme.textColor }]}>Login</Text>
       <TextInput
         style={[styles.input, { backgroundColor: theme.inputBackground, color: theme.inputTextColor }]}
-        placeholder="Email or User ID"
+        placeholder="Email"
         value={email}
         onChangeText={setEmail}
         autoCapitalize="none"

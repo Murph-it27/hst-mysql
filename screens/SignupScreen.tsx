@@ -48,7 +48,7 @@ const SignupScreen: React.FC = () => {
       <Text style={[styles.title, { color: theme.textColor }]}>Create a new account</Text>
       <TextInput
         style={[styles.input, { backgroundColor: theme.inputBackground, color: theme.inputTextColor }]}
-        placeholder="User ID"
+        placeholder="User Name"
         value={username}
         onChangeText={setUsername}
         autoCapitalize="none"
